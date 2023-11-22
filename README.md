@@ -1,62 +1,43 @@
 # Nome do projeto
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/August1312/Flask-portfolio.io?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/August1312/Flask-portfolio.io?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/August1312/Flask-portfolio.io?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/August1312/Flask-portfolio.io?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/August1312/Flask-portfolio.io?style=for-the-badge)
 
 <img src="static/img/bg-img/Screenshot_20.png" alt="Projeto">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+
+Criei um projeto Flask com Bootstrap para uma aplicação web responsiva.
+A combinação de HTML, CSS e JavaScript proporciona uma experiência intuitiva e adaptável em diversos dispositivos. 
+Explore a eficiência do back-end Flask integrado ao design moderno do Bootstrap.
 
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Tarefa 1 Monta Pagina Inicial Responsiva 
-- [ ] Tarefa 2 Monta Pagina Sobre
-- [ ] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [x] Monta Pagina Inicial Responsiva 
+- [ ] Monta Pagina Sobre Responsiva
+- [ ] Monta Pagina Habilidade Responsiva
+- [ ] Monta Pagina Portfólio Responsiva
+- [ ] Monta Pagina Contato com Formulario de Contato com JS 
+- [ ] Projeto finalizado 
 
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+- Você instalou a versão mais recente de < python / Flask / Bootstrap, CSS, JS, HTML / acesso à internet para importar as bibliotecas Bootstrap / requer Python instalado >.
+- Os aplicativos Flask podem ser executados em praticamente qualquer sistema operacional que suporte Python. < Linux / macOS / Windows >.
+- Você leu a documentação oficial do Flask, Bootstrap e das tecnologias relacionadas ao seu projeto? Entender a documentação é crucial para aproveitar ao máximo essas ferramentas. 
+Certifique-se de revisar o guia oficial do Flask em https://flask.palletsprojects.com/ e a documentação do Bootstrap em https://getbootstrap.com/docs/. 
+Familiarizar-se com esses recursos garantirá uma implementação mais eficiente e eficaz do seu projeto.
 
-## 🚀 Instalando <nome_do_projeto>
 
-Para instalar o <nome_do_projeto>, siga estas etapas:
+## 📫 Contribuindo para Flask-Portfólio
 
-Linux e macOS:
-
-```
-<comando_de_instalação>
-```
-
-Windows:
-
-```
-<comando_de_instalação>
-```
-
-## ☕ Usando <nome_do_projeto>
-
-Para usar <nome_do_projeto>, siga estas etapas:
-
-```
-<exemplo_de_uso>
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
-
-## 📫 Contribuindo para <nome_do_projeto>
-
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com Flask-Portfólio, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -66,42 +47,6 @@ Para contribuir com <nome_do_projeto>, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="#" title="defina o titulo do link">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Iuri Silva</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#" title="defina o titulo do link">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
-        <sub>
-          <b>Mark Zuckerberg</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#" title="defina o titulo do link">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-## 😄 Seja um dos contribuidores
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
 ## 📝 Licença
 
