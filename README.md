@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/August1312/Flask-portfolio.io?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/August1312/Flask-portfolio.io?style=for-the-badge)
 
-<img src="static/img/bg-img/Screenshot_20.png" alt="Projeto">
+<img src="app/static/img/bg-img/Screenshot_20.png" alt="Projeto">
 
 
 Criei um projeto Flask com Bootstrap para uma aplicação web responsiva.
