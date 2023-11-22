@@ -1,1 +1,0 @@
-web: genicorn -b :PORT app.py
