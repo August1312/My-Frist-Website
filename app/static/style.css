@@ -177,6 +177,22 @@ i.menu-mobile {
     left: 0;
 }
 
+/* Estilizar a barra lateral */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 .3rem var(--shadow-color);
+    background-color: var(--cor-branco);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--cor-azul-marinho);
+}
+
+
 /* Responsividade mobile para 1024px */
 @media (max-width:1024px) {
     #header {
