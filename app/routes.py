@@ -1,5 +1,5 @@
 ### Import extenção do app ###
-from app import *
+from app import app, render_template
 
 
 
