@@ -1,4 +1,4 @@
-# Nome do projeto
+# My Frist Website
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/August1312/Flask-portfolio.io?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/August1312/Flask-portfolio.io?style=for-the-badge)
@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/August1312/Flask-portfolio.io?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/August1312/Flask-portfolio.io?style=for-the-badge)
 
-<img src="app/static/img/bg-img/Screenshot_20.png" alt="Projeto">
+<img src="" alt="Projeto">
 
 
 Criei um projeto Flask com Bootstrap para uma aplicação web responsiva.
