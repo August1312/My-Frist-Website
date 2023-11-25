@@ -19,8 +19,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Monta Pagina Inicial Responsiva 
 - [x] Monta Pagina Sobre Responsiva
-- [ ] Monta Pagina Habilidade Responsiva
-- [ ] Monta Pagina Portfólio Responsiva
+- [x] Monta Pagina Rota Academica Responsiva
+- [x] Monta Pagina Portfólio Responsiva
 - [ ] Monta Pagina Contato com Formulario de Contato com JS 
 - [ ] Projeto finalizado 
 
