@@ -13,6 +13,7 @@
     --shadow-color:#000000;
     --cor-branco: #fff;
     --cor-azul-intenso: #252c90;
+    --cor-azul-claro-quase-branco: #eff5ff;
     --shadow-color-verde: rgba(0, 255, 0, 0.7);
     
 }
@@ -110,7 +111,7 @@ html, body {
 }
 
 section#inicio {
-    background-image: url(./img/bg-img/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(../img/bg-img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -192,6 +193,23 @@ i.menu-mobile {
     background-color: var(--cor-azul-marinho);
 }
 
+/* Pagina Habilidades */
+.section-bg {
+    background-color: var(--cor-azul-claro-quase-branco);
+}
+
+/* Pagina academica css botoes carousel */
+.carousel-control-prev {
+    margin-left: -90px;
+}
+.carousel-control-next {
+    margin-right: -90px;
+}
+.carousel-indicators {
+    margin-bottom: -35px;
+}
+
+
 
 /* Responsividade mobile para 1024px */
 @media (max-width:1024px) {
@@ -214,5 +232,16 @@ i.menu-mobile {
     }
     #main {
         margin-left: 0px;
+    }
+}
+
+/* responsividade dos carrosel de academico e portfolio  */
+@media (max-width: 1860px) {
+    .carousel-control-prev {
+        margin-left: 0;
+    }
+    .carousel-control-next {
+
+        margin-right: 0;
     }
 }
