@@ -245,12 +245,6 @@ i.menu-mobile {
     transform: translate3d(0, 0, 0);
 }
 
-/* btn-loader */
-
-#btn-loader {
-    display: none;
-}
-
 /* Alerta */
 #alerta {
     position: fixed;

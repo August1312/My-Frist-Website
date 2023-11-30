@@ -53,17 +53,6 @@ window.addEventListener("scroll", () => {
     animeScroll(elementosAnime);
 });
 
-// ativa carregamento do botão enviar 
-
-const btnEnviar = document.querySelector('#btn-enviar')
-const btnLoader = document.querySelector('#btn-Loader')
-
-
-btnEnviar.addEventListener("click", () => {
-    btnLoader.styler.display = "block";
-    btnEnviar.styler.display = "none";
-})
-
 // tira mensagem depois de 5s
 
 setTimeout(() => {
