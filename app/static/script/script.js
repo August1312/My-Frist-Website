@@ -5,7 +5,7 @@ const body = document.querySelector('body');
 
 
 menuMobile.addEventListener('click', () => {
-    if ( menuMobile.classList.contains("bi-list")){
+    if (menuMobile.classList.contains("bi-list")) {
         menuMobile.classList.replace("bi-list", "bi-x")
     }
     else {
@@ -16,11 +16,11 @@ menuMobile.addEventListener('click', () => {
 
 /* Fecha o menu quando clicar em algum intem no corpo da site  */
 
-const navItem =document.querySelectorAll('.nav-item');   /* querySelectorAll serve para pega todos os intem com a tag nav-item */
+const navItem = document.querySelectorAll('.nav-item');   /* querySelectorAll serve para pega todos os intem com a tag nav-item */
 
 /* para adicionar evento de click em cada intem do nav-item */
 navItem.forEach(item => {
-    item.addEventListener("click", () =>{
+    item.addEventListener("click", () => {
         if (body.classList.contains("menu-nav-active")) {
             body.classList.remove("menu-nav-active")
             menuMobile.classList.replace("bi-x", "bi-list")
@@ -37,7 +37,7 @@ const animeScroll = (elements) => {
 
         if (windowTop > elementTop) {
             element.classList.add("animate");
-        } 
+        }
         else {
             element.classList.remove("animate")
         }
@@ -52,3 +52,22 @@ animeScroll(elementosAnime);
 window.addEventListener("scroll", () => {
     animeScroll(elementosAnime);
 });
+
+// ativa carregamento do botão enviar 
+
+const btnEnviar = document.querySelector('#btn-enviar')
+const btnLoader = document.querySelector('#btn-Loader')
+
+
+btnEnviar.addEventListener("click", () => {
+    btnLoader.styler.display = "block";
+    btnEnviar.styler.display = "none";
+})
+
+// tira mensagem depois de 5s
+
+setTimeout(() => {
+    document.querySelector('#alerta')
+    .styler
+    .display = 'none';
+}, 5000)

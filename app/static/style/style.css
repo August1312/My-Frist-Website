@@ -3,27 +3,28 @@
 
 
 /* Definição variáveis root */
-:root{
+:root {
     /* Variáveis Cores */
     --cor-azul-escuro: #2c2f3f;
     --cor-azul-marinho: #021124;
     --cor-azul-meia-noite: #212431;
     --cor-azul-claro: #149ddd;
     --cor-cinza-claro: #a8a9b4;
-    --shadow-color:#000000;
+    --shadow-color: #000000;
     --cor-branco: #fff;
     --cor-azul-intenso: #252c90;
     --cor-azul-claro-quase-branco: #eff5ff;
     --shadow-color-verde: rgba(0, 255, 0, 0.7);
-    
+
 }
 
 /* Fonte all */
-html, body {
+html,
+body {
     font-family: 'Ubuntu', 'Ariel';
     width: 100%;
     height: 100%;
-   
+
 }
 
 
@@ -76,7 +77,9 @@ html, body {
 .nav-menu {
     padding: 1.5rem;
 }
-.nav-menu a, .nav-menu a:focus {
+
+.nav-menu a,
+.nav-menu a:focus {
     display: flex;
     align-items: center;
     color: var(--cor-cinza-claro);
@@ -84,7 +87,8 @@ html, body {
     font-size: 15px;
 }
 
-.nav-menu a i, .nav-menu a:focus i {
+.nav-menu a i,
+.nav-menu a:focus i {
     font-size: 24px;
     padding-right: 0.8rem;
     color: var(--cor-cinza);
@@ -93,14 +97,14 @@ html, body {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover > a {
+.nav-menu li:hover>a {
     text-decoration: none;
     color: var(--cor-branco);
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
-.nav-menu li:hover > a i {
+.nav-menu li:hover>a i {
     color: var(--cor-azul-claro);
 }
 
@@ -132,12 +136,13 @@ section#inicio span#subtitle {
 }
 
 section#inicio span#subtitle1 {
-    
+
     margin-right: 4%;
     font-size: 1.9rem;
     margin-top: 4rem;
     text-shadow: 2px 2px 10px var(--shadow-color);
 }
+
 text-shadow {
     text-shadow: 4px 4px 10px var(--shadow-color);
 }
@@ -170,10 +175,12 @@ i.menu-mobile {
     justify-content: center;
     align-items: center;
 }
+
 /* menu active js */
 .menu-nav-active {
     overflow: hidden;
 }
+
 .menu-nav-active #header {
     left: 0;
 }
@@ -202,9 +209,11 @@ i.menu-mobile {
 .carousel-control-prev {
     margin-left: -90px;
 }
+
 .carousel-control-next {
     margin-right: -90px;
 }
+
 .carousel-indicators {
     margin-bottom: -35px;
 }
@@ -236,29 +245,48 @@ i.menu-mobile {
     transform: translate3d(0, 0, 0);
 }
 
+/* btn-loader */
+
+#btn-loader {
+    display: none;
+}
+
+/* Alerta */
+#alerta {
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+}
+
 /* Responsividade mobile para 1024px */
 @media (max-width:1024px) {
     #header {
         left: -300px;
     }
+
     i.menu-mobile {
         display: flex;
     }
+
     section#inicio h2 {
         font-size: 3.5rem;
     }
+
     section#inicio span#subtitle {
         margin-right: 0;
         font-size: 1rem;
     }
+
     section#inicio span#subtitle1 {
         margin-right: 0;
         font-size: 1rem;
     }
+
     #main {
         margin-left: 0px;
     }
-    
+
 }
 
 /* responsividade dos carrosel de academico e portfolio  */
@@ -266,12 +294,14 @@ i.menu-mobile {
     .carousel-control-prev {
         margin-left: 0;
     }
+
     .carousel-control-next {
 
         margin-right: 0;
     }
+
     [data-anime="right"] {
         transform: translate3d(-100%, 0, 0);
     }
-    
+
 }
