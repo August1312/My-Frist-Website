@@ -27,3 +27,28 @@ navItem.forEach(item => {
         }
     })
 })
+
+// animar todos os intens na tela que tiverem meu atributo data-anime // 
+const animeScroll = (elements) => {
+    const windowTop = window.scrollY + window.innerHeight * 0.85;
+
+    elements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top + window.scrollY;
+
+        if (windowTop > elementTop) {
+            element.classList.add("animate");
+        } 
+        else {
+            element.classList.remove("animate")
+        }
+    });
+};
+
+// Seletor para os elementos desejados
+const elementosAnime = document.querySelectorAll("[data-anime]");
+
+animeScroll(elementosAnime);
+
+window.addEventListener("scroll", () => {
+    animeScroll(elementosAnime);
+});
