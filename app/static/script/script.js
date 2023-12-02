@@ -2,6 +2,7 @@
 
 const menuMobile = document.querySelector('.menu-mobile');
 const body = document.querySelector('body');
+const footer = document.querySelector('footer');
 
 
 menuMobile.addEventListener('click', () => {
@@ -12,7 +13,9 @@ menuMobile.addEventListener('click', () => {
         menuMobile.classList.replace("bi-x", "bi-list")
     }
     body.classList.toggle("menu-nav-active")
+    footer.classList.toggle("menu-nav-active")
 });
+
 
 /* Fecha o menu quando clicar em algum intem no corpo da site  */
 

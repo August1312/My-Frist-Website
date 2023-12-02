@@ -185,6 +185,10 @@ i.menu-mobile {
     left: 0;
 }
 
+.menu-nav-active #footer {
+    left: 0;
+}
+
 /* Estilizar a barra lateral */
 *::-webkit-scrollbar {
     width: 10px;
@@ -253,9 +257,27 @@ i.menu-mobile {
     right: 30px;
 }
 
+/* Footer */
+#footer {
+    padding: 15px;
+    color: var(--cor-branco);
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999px;
+    background-color: var(--cor-azul-marinho);
+    transition: all ease-in-out 0.5s;
+}
+
 /* Responsividade mobile para 1024px */
 @media (max-width:1024px) {
     #header {
+        left: -300px;
+    }
+
+    #footer {
         left: -300px;
     }
 
