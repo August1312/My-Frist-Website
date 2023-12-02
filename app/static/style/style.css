@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 
-/* Definição variáveis root */
+/* Definição de variáveis globais */
 :root {
-    /* Variáveis Cores */
+    /* Cores */
     --cor-azul-escuro: #2c2f3f;
     --cor-azul-marinho: #021124;
     --cor-azul-meia-noite: #212431;
@@ -18,7 +18,7 @@
 
 }
 
-/* Fonte all */
+/* Fonte padrão para todo o corpo do documento */
 html,
 body {
     font-family: 'Ubuntu', 'Ariel';
@@ -28,7 +28,7 @@ body {
 }
 
 
-/* Menu lateral */
+/* Estilos do Menu Lateral */
 #header {
     position: fixed;
     top: 0;
@@ -109,7 +109,7 @@ body {
 }
 
 
-/* Style Main body */
+/* Estilo Main corpo */
 #main {
     margin-left: 300px;
 }
@@ -157,8 +157,6 @@ section#inicio div#arraste a {
 }
 
 /* Estilos para a responsividade do menu mobile */
-
-/* Menu hambuguer */
 i.menu-mobile {
     position: fixed;
     color: var(--cor-branco);
@@ -176,7 +174,6 @@ i.menu-mobile {
     align-items: center;
 }
 
-/* menu active js */
 .menu-nav-active {
     overflow: hidden;
 }
@@ -209,7 +206,7 @@ i.menu-mobile {
     background-color: var(--cor-azul-claro-quase-branco);
 }
 
-/* Pagina academica css botoes carousel */
+/* Pagina acadêmica CSS botões carousel */
 .carousel-control-prev {
     margin-left: -90px;
 }

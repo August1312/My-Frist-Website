@@ -7,15 +7,32 @@ from app import EMAIL_ADDRESS, EMAIL_PASSWORD, passou_um_minuto
 # Declaração de Rotas
 @app.route('/')
 def index():
+    """
+    Rota padrão que renderiza a página inicial (index.html).
+    """
     return render_template('index.html')
 
 @app.route('/send', methods=['POST'])
 def enviar_mensagem():
+    """
+    Rota para processar o envio de mensagens do formulário.
+
+    Método POST:
+    - Verifica se passou pelo menos três minutos desde o último envio.
+    - Coleta dados do formulário.
+    - Configura a mensagem de e-mail.
+    - Conecta ao servidor de e-mail e envia a mensagem.
+
+    Retorna:
+    - Redireciona para a página inicial.
+    """
     if request.method == 'POST':
+        # Verifica se passou pelo menos três minutos desde o último envio.
         if not passou_um_minuto():
             flash('Aguarde pelo menos Tres minuto antes de enviar outro email.', 'error')
             return redirect(url_for('index')) 
         
+        # Coleta dados do formulário.
         nome = request.form['nome']
         email = request.form['email']
         mensagem = request.form['mensagem']
@@ -45,7 +62,11 @@ def enviar_mensagem():
             servidor.send_message(msg)
             
             flash('Mensagem enviada com sucesso!', 'success')
+            
+             # Verifica novamente se passou pelo menos três minutos antes de enviar outro e-mail.
             if not passou_um_minuto():
                 flash('Aguarde pelo menos Tres minuto antes de enviar outro email.', 'error')
             return redirect(url_for('index')) 
+        
+     # Redireciona para a página inicial se o método HTTP não for POST.
     return redirect(url_for('index')) 

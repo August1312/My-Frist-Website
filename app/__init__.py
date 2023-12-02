@@ -19,6 +19,13 @@ EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD')
 
 # Função para verificar se já se passou um minuto desde o último envio
 def passou_um_minuto():
+    """
+    Verifica se já se passou um determinado tempo desde o último envio.
+
+    Retorna:
+    - True se passou mais de 3 minutos desde o último envio.
+    - False caso contrário.
+    """
     agora = datetime.now(timezone.utc)
     ultimo_envio = session.get('ultimo_envio', datetime.min.replace(tzinfo=timezone.utc))
     
@@ -28,5 +35,5 @@ def passou_um_minuto():
     
     return False
 
-
+# Importa as rotas do módulo 'routes'
 from app import routes
