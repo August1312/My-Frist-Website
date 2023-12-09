@@ -47,7 +47,7 @@ body {
     display: block;
     width: 200px;
     border: 8px solid var(--cor-azul-escuro);
-    border-radius: 40%;
+    border-radius: 50%;
 }
 
 #header .profile h1 {
